@@ -1,0 +1,40 @@
+[project]
+name = "ai-engineering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "anthropic>=0.54.0",
+    "fastapi>=0.115.12",
+    "httpx>=0.28.1",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.25",
+    "langchain-core>=0.3.65",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.0",
+    "ollama>=0.5.1",
+    "openai>=1.86.0",
+    "pandas>=2.3.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.4",
+    "rich>=14.0.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+    "typer>=0.16.0",
+    "uvicorn>=0.34.3",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "mypy>=1.16.0",
+    "pre-commit>=4.2.0",
+    "pytest>=8.4.0",
+]
